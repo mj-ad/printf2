@@ -10,13 +10,14 @@
  *
  * @sp: the specifier
  * @f: the function associated
- */
+ *
 typedef struct sp
 {
 	char *sp;
 
 	int (*f)(va_list);
 } struc;
+*/
 
 int _putchar(char c);
 void unsigned_number_to_string(uint64_t number, int base, char *buffer);
