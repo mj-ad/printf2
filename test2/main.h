@@ -19,16 +19,6 @@
 #define S_SHORT 1
 
 /**
-<<<<<<< HEAD
- * struct op - struct
- *
- * @op: the specifier
- * @args: the function associated
- */
-int _putchar(char c);
-void unsigned_number_to_string(uint64_t number, int base, char *buffer);
-void number_to_string(int64_t number, int base, char *buffer);
-=======
  * struct fmt - Struct op
  *
  * @fmt: The format.
@@ -48,7 +38,6 @@ struct fmt
  */
 typedef struct fmt fmt_t;
 
->>>>>>> 741b2f71761cb6b2332fc77711812a5638e88933
 int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
 		va_list list, char buffer[], int flags, int width, int precision, int size);
