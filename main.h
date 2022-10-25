@@ -6,19 +6,11 @@
 #include <stdint.h>
 
 /**
- * struct sp - struct
+ * struct op - struct
  *
- * @sp: the specifier
- * @f: the function associated
- *
-typedef struct sp
-{
-	char *sp;
-
-	int (*f)(va_list);
-} struc;
-*/
-
+ * @op: the specifier
+ * @args: the function associated
+ */
 int _putchar(char c);
 void unsigned_number_to_string(uint64_t number, int base, char *buffer);
 void number_to_string(int64_t number, int base, char *buffer);
